@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(image/pexels-pixabay-207529.jpg);
+    height: auto;
+    width: 100%;
+    color: black;
+}
+.lang-menu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 40px;
+    position: relative;
+    color: #fff;
+   
+}
+.lang-menu .selected-lang {
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+}
+.lang-menu .selected-lang:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    width: 125px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-menu ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.lang-menu ul li:hover {
+    background-color: #f2f2f2;
+}
+
+.lang-menu ul li a:before {
+    
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.de:before {
+    background-image: url(https://www.countryflags.io/de/flat/32.png);
+}
+
+.en:before {
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+}
+.fr:before {
+    background-image: url(https://www.countryflags.io/fr/flat/32.png);
+}
+
+.ar:before {
+    background-image: url(https://www.countryflags.io/ae/flat/32.png);
+}
+
+
+.lang-menu:hover ul {
+    display: block;
+}
+.from{
+   background-image: url(image/ia.jpg);
+   text-align: center;
+   align-items: center;
+  
+   height: 530px;
+   width: 710px;
+   margin-left: 350px;
+   margin-top: 100px;
+   border-radius: 10PX;
+
+}
+.from-box p{
+    
+    
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: black;
+    
+}
+.from-box .image img{
+   
+    border-radius: 80px;
+    
+}
+span{
+    color: #e42c50;
+}
+
+.from-box .para h2{
+    
+    color: black;
+    opacity: 3;
+
+}
+.user{
+color: black;
+padding-top: 70px;
+    
+   
+}
+.user h4{
+    padding-right: 100px;
+}
+.user input{
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+   
+}
+.btn{
+    background-color: #e42c50;
+    color: white;
+    border-radius: 30px;
+    text-decoration:none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: transfrom .4s ;
+    color: white;
+}
+.btn:hover{
+    transform: scale(1.2);
+    color: white;
+}
+.from a{
+    margin-left: 10px;
+}
+
+@media(max-width:700px){
+   body{
+    height: 600px;
+    width: 100%;
+} 
+.from{
+    height: 530px;
+    width: 400px;
+    margin-left: 80px;
+  
+}
+.logo{
+    margin-left:70px;
+}
+}
+.logo{
+    padding-top: -1px;
+    height: 62px;
+    width: 330px;
+    
+    border-radius: 15px 0px 0px 15px;
+
+  }
